@@ -1,0 +1,112 @@
+body {
+	background-color: beige;
+}
+
+@font-face {
+	font-family: "cooper";
+	src: url("fonts/CooperHewitt-Heavy.woff2") format("woff2");
+}
+
+p {
+	font-family: "cooper";
+	font-size: 35px;
+	color: green;
+	margin-top: 30px;
+	text-align: justify;
+}
+
+h5 {
+	font-family: "cooper";
+	font-size: 30px;
+	color: black;
+	margin-top: 30px;
+	text-align: justify;
+}
+
+h6 {
+	font-family: "cooper";
+	font-size: 35px;
+	color: lightpink;
+	margin-top: 30px;
+	text-align: justify;
+}
+
+.flex {
+	display: flex;
+	width: 100%;
+	margin-top: 100px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+}
+
+.blue {
+	width: 700px;
+	height: 480px;
+	z-index: -1;
+	justify-content: justify;
+}
+
+.blue {
+	background-color: transparent;
+	margin-top: 250px;
+	margin-left: 250px;
+}
+
+.green {
+	width: 700px;
+	height: 480px;
+	z-index: -1;
+	justify-content: justify;
+}
+
+.green {
+	background-color: transparent;
+	margin-top: -560px;
+	margin-left: 250px;
+}
+
+.red {
+	width: 900px;
+	height: 480px;
+	z-index: -10;
+	justify-content: justify;
+}
+
+.red {
+	background-color: black;
+	margin-top: -470px;
+	margin-left: 160px;
+}
+
+.space-around {
+	justify-content: space-around;
+}
+
+.flex-end {
+	justify-content: flex-end;
+	z-index: -1;
+}
+
+.flex-vertical {
+	display: flex;
+	height: 850px;
+	flex-direction: column;
+	z-index: -1;
+	margin-top: -300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
